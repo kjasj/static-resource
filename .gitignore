@@ -1,0 +1,50 @@
+# macOS 系统文件（匹配任意层级）
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+__MACOSX/
+
+# 常见构建产物与依赖缓存
+node_modules/
+dist/
+build/
+target/
+out/
+coverage/
+.next/
+.nuxt/
+.output/
+.vite/
+.turbo/
+.cache/
+.parcel-cache/
+.gradle/
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# 日志、临时文件与编辑器备份
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 本地环境配置，保留可公开的示例
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.template
